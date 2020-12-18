@@ -1,0 +1,320 @@
+/* You can add global styles to this file, and also import other style files */
+@import "devices.min.css";
+
+body {
+  background-color:#181818;
+  color: white;
+  align-items: center;
+}
+
+.navbar-center {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login {
+  height: 52px;
+  width: 136px;
+  color: white;
+  border: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 24px 10px 24px;
+}
+
+.detail {
+  padding-top: 16px;
+  padding-bottom: 16px
+}
+
+.marvel-device {
+  margin-bottom: 48px;
+}
+
+.top-space {
+  padding-top: 48px;
+}
+
+.bottom-space {
+  padding-bottom: 48px;
+}
+
+.center {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: black;
+
+}
+
+iframe {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.output {
+  background: #eee;
+}
+
+.card {
+  border: none;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ddd;
+  color: white;
+}
+
+.nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.card-body {
+  background-color: black;
+}
+
+.nav {
+  margin: auto;
+  width: 60%;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.normal {
+  width: 160px;
+  text-align: center;
+  padding: 10px;
+}
+
+span {
+  padding-left: 10px;
+}
+
+.section-break {
+  margin-top: 150px;
+  margin-bottom: 84px;
+}
+
+.card-works {
+  margin-top: auto;
+  margin-bottom: auto;  
+}
+
+.row {
+  padding-top: 48px;
+}
+
+.card-narrow {
+  width: 80%;
+}
+
+.passion {
+  /* width: 100%; */
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  border: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.passion-left {
+  float: left;
+  height: 400px;
+  margin-right: 10px;
+  width: 300px;
+  text-align: left;
+}
+
+
+.social-media-image {
+  width: 150px;
+}
+
+.user-image {
+  float: left;
+  margin-right: 16px;
+}
+
+.user-info {
+  position: relative;
+}
+
+.user-name {
+  float: left;
+}
+
+.user-title {
+  position: relative;
+  float: left;
+}
+
+.user-comment {
+  float: left;
+  text-justify: auto;
+  width: 80%;
+}
+
+.icon-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40%;
+  padding-bottom: 64px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-lightbulb {
+  color: white;
+}
+
+.fa-cog {
+  margin-right: 16px;
+  margin-top: 0px;
+}
+
+.creators {
+  width: 50%;
+}
+
+.superpower-row {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.works-row {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.common-row {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.start-now-btn {
+  margin-top: 32px;;
+}
+
+.pricing-right {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  background-color: black;
+  margin: 10px;
+  width: 476px;
+  height: 541px;
+  padding-top: 64px;
+}
+
+.pricing-left {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  width: 476px;
+  height: 541px;
+  padding-top: 64px;
+}
+
+.pricing-heading {
+  margin-bottom: 24px;
+}
+
+.pricing-cost {
+  margin-bottom: 24px;
+}
+
+.pricing-text {
+  margin-bottom: 16px;
+}
+
+.pricing-button {
+  margin-top: 16px;
+  width: 200px;
+  height: 50px;
+}
+
+.better-header {
+  text-align: center;
+}
+
+.better-info {
+  text-align: left;
+  border-radius: 10px;
+  background-color: #000000;
+  margin-right: 8px;
+  margin-left: 8px;
+  width: 230px;
+  height: 165px;
+  padding-top: 16px;
+}
+
+.better-info-first {
+  text-align: left;
+  border-radius: 10px;
+  background-color: #000000;
+  margin-right: 8px;
+  margin-left: 8px;
+  width: 230px;
+  height: 165px;
+  padding-top: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8b008b;
+}
